@@ -4,5 +4,8 @@
     border-width: 20px;
     border-style: solid;
     border-radius:10px ;
-    background-color: #DCE2C8;
+    background-color:#E6E8E6;
+}
+#price{
+    display: flex;
 }
