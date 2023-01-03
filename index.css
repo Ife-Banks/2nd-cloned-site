@@ -50,3 +50,27 @@ img{
     text-align: center;
     line-height: -1px;
 }
+main{
+    width: 400px;
+    background-color: white;
+    
+    padding:10px 0px ;
+    margin-top: 70px ;
+    margin-left: 50px;
+}
+aside{
+ width: 300px;
+ 
+    background-color: white;
+    
+    padding:10px 0px ;
+    margin-top: 70px ;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+#main{
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    display: flex;
+}
