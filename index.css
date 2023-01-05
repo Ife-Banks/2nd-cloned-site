@@ -8,6 +8,7 @@
     width: auto;
 }
 #price{
+    box-sizing: border-box;
     margin: 100px auto 0px auto;
     display: flex;
     width: 80%;
@@ -16,10 +17,13 @@
     border-radius: 50px;
 }
 .play{
+    box-sizing: border-box;
     display: flex;
+    margin: 0px 7%;
 }
 .prices{
-    margin-left: 150px;
+    box-sizing: border-box;
+    margin-left: 25%;
 }
 nav{
     background-color: white;
@@ -114,7 +118,7 @@ aside{
     box-sizing: border-box;
     margin-top: 150px;
 }
- @media only screen and (max-width:600px){
+ @media only screen and (max-width:768px){
     
     
     
@@ -189,15 +193,19 @@ aside{
         }
         .play{
             display: flex;
+            margin-left: 10%;
 
         }
         #price{
             display: flex;
             flex-direction:row;
-            width: 95%;
+            
+            overflow: scroll;
+            
         }
         .prices{
-            margin-left: 10px;
+            margin-left: 5%;
+            margin-right: 5%;
         }
          img{
             display: none;
