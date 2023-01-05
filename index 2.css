@@ -20,20 +20,16 @@
     box-sizing: border-box;
     display: flex;
     margin: 0px 7%;
-    background-color: red;
 }
 .prices{
     box-sizing: border-box;
-    width: 100%;
-    margin-left: ;
-    padding: 0px 20%;
-    background-color: blue;
+    margin-left: 25%;
 }
 nav{
     background-color: white;
     width: 80%;
     margin: auto;
-    padding:1% 0px;
+    padding:10% 0px;
     margin-top: 40px;
     box-sizing: border-box;
     border-radius: 40px;
