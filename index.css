@@ -260,5 +260,8 @@ li a:hover {
  nav{
  padding:5% 0px
  }
+ #in{
+    display: none;
+ }
             
 }
