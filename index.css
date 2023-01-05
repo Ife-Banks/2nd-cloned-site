@@ -11,7 +11,7 @@
     box-sizing: border-box;
     margin: 100px auto 0px auto;
     display: flex;
-    width: 80%;
+    width: 70%;
     
     background-color: white;
     border-radius: 50px;
@@ -19,15 +19,16 @@
 .play{
     box-sizing: border-box;
     display: flex;
-    margin: 0px 7%;
-    background-color: red;
+    margin: 0px 12%;
+    width: 20%;
+    background-color:;
 }
 .prices{
     box-sizing: border-box;
     width: 100%;
     margin-left: ;
     padding: 0px 20%;
-    background-color: blue;
+    background-color: 
 }
 nav{
     background-color: white;
