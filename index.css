@@ -282,8 +282,9 @@ label{
     display: block;
     padding: 10px 0px 10px 50px;
     font-size: 46px;
-    background: url(list.png) no-repeat left center ;
+    background: url(list.png) no-repeat left ;
     background-size:30px 40px ;
+    background-position: 10px;
 
     
    
