@@ -7,6 +7,12 @@
     background-color:#E6E8E6;
     width: auto;
 }
+label{
+    display: none;
+}
+input{
+    display: none;
+}
 #price{
     box-sizing: border-box;
     margin: 100px auto 0px auto;
@@ -239,9 +245,12 @@ aside{
 li{
 float:none;
 }
+li a{
+    text-align: left;
+}
 #se{
 float:none;
-margin:0px 0px 0px 25%;
+margin:0px 0px 0px 5%;
 }
 .play{
 flex-direction:column;
@@ -260,10 +269,42 @@ li a:hover {
   color:white;
  }
  nav{
- padding:5% 0px
- }
+    display: none;
+ padding:5% 0px;
+ max-height: 0px;
+ overflow: hidden;
+margin-top: 0px;
+padding-top:0px;
+background: #e6e8e6; 
+}
+label{
+    color: white;
+    display: block;
+    padding: 10px 0px 10px 50px;
+    font-size: 46px;
+    background: url(list.png) no-repeat left center ;
+    background-size:300px 400px ;
+
+    
+   
+}
+
+input:checked ~ nav{
+    display: block;
+    max-height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: white;
+    width: 100%;
+    border-radius: 0px;
+    padding-left: 0px;
+}
  #in{
     display: none;
  }
-            
+ #try{
+    display: block;
+    
+ }
+    
 }
