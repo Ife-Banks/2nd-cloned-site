@@ -29,6 +29,12 @@ input{
     width: 20%;
     background-color:;
 }
+#play{
+    margin-left: 10%;
+}
+#prices{
+    margin-left: 0px;
+}
 .prices{
     box-sizing: border-box;
     width: 100%;
@@ -213,6 +219,8 @@ aside{
         .play{
             display: flex;
             margin-left: 15%;
+            width: 50%;
+            
 
         }
         #price{
@@ -220,11 +228,16 @@ aside{
             flex-direction:row;
             width: 80%;
             overflow: scroll;
-            
+            margin: auto;
+        }
+        #prices{
+            margin-left: 0px;
+            padding-left: 0px;
         }
         .prices{
-            margin-left: 10%;
-            margin-right: 5%;
+            width: ;
+            margin-left: 0%;
+            margin-right: 0%;
         }
          img{
             display: none;
@@ -254,9 +267,14 @@ margin:0px 0px 0px 5%;
 }
 .play{
 flex-direction:column;
-margin-left:0.5%;
-margin-left: 10%;
+margin-left:;
+margin-left: 5%;
 }
+#
+#play{
+    margin-left: 0px;
+}
+
 .prices{
 margin-left:10px;
 }
@@ -278,16 +296,25 @@ padding-top:0px;
 background: #e6e8e6; 
 }
 label{
-    color: white;
+    color: black;
     display: block;
     padding: 10px 0px 10px 50px;
     font-size: 46px;
+    
     background: url(list.png) no-repeat left ;
     background-size:30px 40px ;
     background-position: 10px;
 
     
    
+}
+#pri1{
+     margin-left: 0px;
+            padding-left: 0px;
+}
+input:checked ~ label{background: url(close.svg) no-repeat left;
+    background-size: 40px 40px;
+    background-position: 10px;
 }
 
 input:checked ~ nav{
