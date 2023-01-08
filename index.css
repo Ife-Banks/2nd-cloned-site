@@ -142,6 +142,9 @@ aside{
     margin-top: 150px;
     margin-bottom:100px;
 }
+.deco{
+    text-align: justify;
+}
  @media only screen and (max-width:768px){
     
     
